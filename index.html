@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RS Friendship</title>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: white;
+  color: #333;
+}
+header {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #d4a52c;
+}
+.logo {
+  color: #c18a13;
+  font-size: 38px;
+  font-weight: bold;
+  font-family: Georgia, serif;
+}
+h1 { color: #b78315; }
+.hero {
+  text-align: center;
+  padding: 65px 15px;
+  background: #fff9e9;
+}
+button {
+  background: linear-gradient(90deg,#d7a52e,#a87308);
+  color: white;
+  border: 0;
+  padding: 13px 28px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+  gap: 15px;
+  padding: 25px;
+}
+.card {
+  padding: 22px 10px;
+  text-align: center;
+  border: 1px solid #e8d7ad;
+  border-radius: 15px;
+}
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #9a701b;
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">👑 RS</div>
+  <h2>RS Friendship</h2>
+  Make New Friends • Connect • Chat
+</header>
+
+<section class="hero">
+  <h1>Welcome to RS Friendship</h1>
+  <p>Meet people. Discover common interests. Build friendships.</p>
+  <button onclick="document.getElementById('community').scrollIntoView({behavior:'smooth'})">
+    Explore Community
+  </button>
+</section>
+
+<h1 style="text-align:center">Our Community</h1>
+<section class="features" id="community">
+  <div class="card">🎨<h3>Art & Creativity</h3></div>
+  <div class="card">🎵<h3>Music Lovers</h3></div>
+  <div class="card">📚<h3>Book Lovers</h3></div>
+  <div class="card">⚽<h3>Sports Friends</h3></div>
+</section>
+
+<footer>
+  <h2>RS Friendship 👑</h2>
+  Make New Friends • Connect • Chat
+  <p>Stay Safe • Respect Everyone • Protect Your Privacy</p>
+  © 2026 RS Friendship
+</footer>
+</body>
+</html>
